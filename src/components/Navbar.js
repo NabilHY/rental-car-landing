@@ -21,7 +21,7 @@ const navBarComponent = () => {
           <a class="nav-link" href="#">Our Fleet</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us </a>
+          <a class="nav-link" href="#">Contact Us </a>
         </li>
       </ul>
       <button type="button" class="btn btn-dark pt-2 pb-2 pr" >Login</button>

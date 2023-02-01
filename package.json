@@ -34,6 +34,8 @@
   },
   "dependencies": {
     "@hint/utils-dom": "^2.2.2",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
     "lodash": "^4.17.21",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-csstree-validator": "^2.1.0",

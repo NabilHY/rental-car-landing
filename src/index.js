@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import navbar from './components/Navbar';
+import navbar from './components/Navbar.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './style.css';

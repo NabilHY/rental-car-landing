@@ -16,14 +16,11 @@
     "eol-last": "off",
     "import/extensions": [ 1, {
       "js": "always", "json": "always"
-    }]
+    }],
+    "import/no-extraneous-dependencies": "off"
   },
   "ignorePatterns": [
     "dist/",
     "build/"
-  ],
-  "import/no-extraneous-dependencies": [
-    "error", {"devDependencies": true
-    }
   ]
 }

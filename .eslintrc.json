@@ -2,7 +2,7 @@
   "env": {
     "browser": true,
     "es6": true,
-    "jest": true
+    "jest": true,
   },
   "parser": "babel-eslint",
   "parserOptions": {
@@ -21,5 +21,10 @@
   "ignorePatterns": [
     "dist/",
     "build/"
+  ],
+  "import/no-extraneous-dependencies": [
+    "error", {"devDependencies": true
+    }
   ]
+
 }

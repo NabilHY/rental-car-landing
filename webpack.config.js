@@ -1,9 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  entry: [
+    './src/index.js',
+    'jquery',
+  ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
@@ -12,6 +16,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'My Webpack Project',
       template: './src/index.html',
+    }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
     }),
   ],
   module: {
